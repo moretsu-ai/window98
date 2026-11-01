@@ -1,0 +1,35 @@
+{
+  "name": "windows-98-abandoned-computer",
+  "version": "1.0.0",
+  "description": "Authentic nostalgic recreation of an abandoned Windows 98 computer with virtual filesystem, bundled documents, functional applications, and 3 Easter eggs.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "node test/verify-project.js"
+  },
+  "keywords": [
+    "windows-98",
+    "retro-os",
+    "simulator",
+    "easter-eggs",
+    "desktop",
+    "react",
+    "typescript"
+  ],
+  "author": "Prakhar Dewangan",
+  "license": "MIT",
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
